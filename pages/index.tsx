@@ -12,9 +12,15 @@ const Home: NextPage = () => {
       <main className={styles.main}>
       <Navbar />   
       <Header />
+      <section id="about">  
       <About />
+      </section>
+      <section id="works">  
       <Works />
+      </section>
+      <section id="contact">  
       <Contact />
+      </section>
       </main>
     </div>
   )

@@ -3,8 +3,8 @@ import style from "../../styles/Navbar.module.css";
 
 const Navbar = () => {
   return (
-    <nav>
-      <section className={style.navbar}>
+    <nav className={style.navbar}>
+      <section className={style.link}>
         <Link
           // activeClass="active"
           to="about"
@@ -13,6 +13,8 @@ const Navbar = () => {
         >
           ABOUT
         </Link>
+        </section>
+        <section className={style.link}>
         <Link
           to="works"
           spy={true}
@@ -20,6 +22,8 @@ const Navbar = () => {
         >
           PORTFOLIO
         </Link>
+        </section>
+        <section className={style.link}>
         <Link
           to="contact"
           spy={true}
