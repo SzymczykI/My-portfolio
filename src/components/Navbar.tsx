@@ -6,18 +6,26 @@ const Navbar = () => {
     <nav>
       <section className={style.navbar}>
         <Link
-          activeClass="active"
+          // activeClass="active"
           to="about"
           spy={true}
           smooth={true}
-          hashSpy={true}
-          offset={50}
-          duration={500}
-          delay={1000}
-          isDynamic={true}
-          ignoreCancelEvents={false}
         >
-          About
+          ABOUT
+        </Link>
+        <Link
+          to="works"
+          spy={true}
+          smooth={true}
+        >
+          PORTFOLIO
+        </Link>
+        <Link
+          to="contact"
+          spy={true}
+          smooth={true}
+        >
+          CONTACT
         </Link>
       </section>
     </nav>
