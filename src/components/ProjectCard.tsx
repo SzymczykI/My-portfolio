@@ -18,7 +18,7 @@ const ProjectCard = (project: CardProps) => {
             src={project.media}
             alt="Picture of the project"
             width={450}
-            height={300}
+            height={320}
           />
       </div>
       <div className={style.text_box}>

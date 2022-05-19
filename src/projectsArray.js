@@ -10,7 +10,7 @@ export const projects = [
     {
         name: 'TRIPPIN',
         description:
-            'Web app Trippin was developed in cooperation with the team - group of four developers who met at SALT in January 2022, as a Graduation project. Our app is a road trip planner with a focus on places like camping sites and national parks. We are able to plan a road trip by setting an origin and a destination, and add own waypoints along the route. We can also get useful information like fuel cost estimate, distance and travel time.App gives possibility to create own account where we can easily manage saved trips.',
+            'Web app Trippin was trip planner developed in cooperation with the team - group of four developers who met at SALT in January 2022, as a Graduation project. Thanks to app we are able to plan a road trip by setting an origin and a destination, and add own waypoints along the route. We can also get useful information like fuel cost estimate, distance and travel time.App gives possibility to create own account where we can easily manage saved trips.',
         technology: 'React, HTML, CSS, JavaScript, Express, MongoDB, Google Map API, Own RESTful API, Firebase, Heroku ',
         gitHubLink: 'https://github.com/SzymczykI/SALT-trippin',
         media: '/trippin2.png',
