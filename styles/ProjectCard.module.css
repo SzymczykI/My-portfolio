@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  margin: 1em;
+  border-radius: 10px;
+  width: 450px;
+}
+
+.text_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  height: 350px;
+}
+
+.title {
+  font-weight: 400;
+  font-family: "Lato";
+  color: #4f4f4f;
+  font-size: 20px;
+  letter-spacing: 6px;
+}
+
+.description {
+  height: 300px;
+  /* font-size: 0.9em; */
+  line-height: 1.5;
+  font-family: "Poppins";
+  color: #4f4f4f;
+  font-size: 12px;
+  text-justify: distribute-all-lines;
+}

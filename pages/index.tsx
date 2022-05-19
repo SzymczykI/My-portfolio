@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import Navbar from '../src/components/Navbar';
 import Header from '../src/components/Header';
 import About from '../src/components/About';
-import Works from '../src/components/Works';
+import Projects from '../src/components/Projects';
 import Contact from '../src/components/Contact';
 import styles from '../styles/Home.module.css'
 
@@ -16,7 +16,7 @@ const Home: NextPage = () => {
       <About />
       </section>
       <section id="works">  
-      <Works />
+      <Projects />
       </section>
       <section id="contact">  
       <Contact />

@@ -1,0 +1,23 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0;
+}
+
+.projects_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title {
+  font-weight: 400;
+  font-family: "Lato";
+  color: #4f4f4f;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}

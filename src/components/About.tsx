@@ -1,4 +1,3 @@
-import Timeline from "./Timeline";
 import Image from "next/image";
 import style from "../../styles/About.module.css";
 
