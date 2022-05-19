@@ -15,15 +15,19 @@ const About = () => {
             Oslo, Norway. I'm Finance and Accoutancy graduated, experienced in
             sales in the insurance, clothing, cosmetics industries and also in
             creating and running my own business, finally making my biggest
-            dream come true by focusing entirely on programming. 
-            <h3>School of applied technology - SALT</h3>
+            dream come true by focusing entirely on programming.{" "}
+          </p>
+          <h3 className={style.subtitle}>School of applied technology - SALT</h3>
+          <p className={style.description}>
             From over 1000 applicants, I was one of ~30 students selected to
             partake in a highly paced and very intensive Full Stack JavaScript
             Developer program which I successfully finished. The training
             emphasises applied learning through Mob Programming, Agile work
             methods and consists of 500 coding hours with weekly demos and
             coding tests that are necessary to pass in order to graduate.
-            <h3>Tech Skills</h3>
+          </p>
+          <h3 className={style.subtitle}>Tech Skills</h3>
+          <p className={style.description}>
             JavaScript, React, Node.js, Next.js, Express, HTML5, CSS3, Databases
             incl. MongoDB and PostgreSQL, UX/UI and general development tools
             such as Git, REST, Docker, Kubernetes, Netlify, Redux, GraphQL, AWS,
@@ -44,8 +48,3 @@ const About = () => {
 };
 
 export default About;
-
-// Technical skills include
-// JavaScript, React, Node.js, Express, HTML5, CSS3, Databases incl.
-// MongoDB and PostgreSQL, UX/UI and general development tools such as
-// Git, REST, Docker, Kubernetes, Redux, GraphQL, AWS, TDD and CI/CD.
