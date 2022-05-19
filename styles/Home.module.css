@@ -3,7 +3,13 @@
 }
 
 .main {
-  min-height: 100vh;
+  background-image: url("../public/background.jpg");
+  background-color: #cccccc;
+  background-position: center 15%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: static;
+  min-height: 150vh;
   padding: 0;
   flex: 1;
   display: flex;
@@ -14,9 +20,9 @@
 
 
 @media (max-width: 600px) {
-  .grid {
+  .main {
     width: 100%;
     flex-direction: column;
-    /* padding: auto; */
+    padding: auto;
   }
 }

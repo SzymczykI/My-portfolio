@@ -20,7 +20,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
         >
-          PORTFOLIO
+          PROJECTS
         </Link>
         </section>
         <section className={style.link}>

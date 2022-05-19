@@ -1,19 +1,126 @@
 .container {
-    background-color: rgba(233, 233, 233, 0.945);
-    height: 1080px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  min-height: 850px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0;
+}
+
+.box {
+  width: 1000px;
+  height: 600px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 5em;
+  /* padding: 15em 0; */
 }
 
 .title {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 10em;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+.block {
+  width: 10%;
+  height: inherit;
+  background: #535353;
+  position: absolute;
+  animation: mainBlock 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
+  display: flex;
 }
 
-.title2 {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 5em;
+.main_title {
+  font-family: "Poppins";
+  color: #cadde4;
+  font-size: 100px;
+  -webkit-animation: mainFadeIn 2s forwards;
+  -o-animation: mainFadeIn 2s forwards;
+  animation: mainFadeIn 2s forwards;
+  animation-delay: 1.6s;
+  opacity: 0;
+  display: flex;
+  align-items: baseline;
+  position: relative;
+}
+
+.role {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  margin-top: -2px;
+}
+
+.main_role {
+  animation: secFadeIn 2s forwards;
+  animation-delay: 3.2s;
+  opacity: 0;
+  font-weight: 400;
+  font-family: "Lato";
+  color: #4f4f4f;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
+@keyframes mainBlock {
+  0% {
+    width: 0%;
+    left: 0;
+  }
+  50% {
+    width: 100%;
+    left: 0;
+  }
+  100% {
+    width: 0;
+    left: 100%;
+  }
+}
+
+@keyframes secBlock {
+  0% {
+    width: 0%;
+    left: 0;
+  }
+  50% {
+    width: 100%;
+    left: 0;
+  }
+  100% {
+    width: 0;
+    left: 100%;
+  }
+}
+
+@keyframes mainFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes secFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+@media (max-width: 600px) {
+  .box {
+    width: 300px;
+    height: 100%;
+  }
 }
