@@ -1,6 +1,6 @@
 import style from "../../styles/Contact.module.css";
 import github from "../assets/GitHub.png";
-import linkedin from "../assets/Linkedin.png";
+import linkedin from "../assets/linkedin.png";
 import Image from "next/image";
 
 const Contact = () => {
