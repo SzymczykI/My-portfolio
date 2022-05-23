@@ -11,9 +11,9 @@ const About = () => {
             {" "}
             Hi, I'm Izabela! <br></br>
             Open-minded and creative Full Stack JavaSript Developer living in
-            Oslo, Norway. I&aposm Finance and Accoutancy graduated, experienced in
+            Oslo, Norway. I am Finance and Accoutancy graduated, experienced in e-commerce and
             sales in the insurance, clothing, cosmetics industries and also in
-            creating and running my own business, finally making my biggest
+            creating and running my own business. Finally, I'm making my biggest
             dream come true by focusing entirely on programming.{" "}
           </p>
           <h3 className={style.subtitle}>School of applied technology - SALT</h3>
