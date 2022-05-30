@@ -19,7 +19,7 @@ margin-bottom: 10em;
 
 .text_box {
   width: 600px;
-  margin-right: 6em;
+  margin-left: 6em;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
